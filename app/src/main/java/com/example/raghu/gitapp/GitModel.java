@@ -15,6 +15,9 @@ public class GitModel {
     @SerializedName("id")
     private int mID;
 
+    @SerializedName("company")
+    private String mCompany;
+
     public String getName() {
         return mName;
     }
@@ -25,5 +28,10 @@ public class GitModel {
 
     public int getID() {
         return mID;
+    }
+
+
+    public String getCompany() {
+        return mCompany;
     }
 }

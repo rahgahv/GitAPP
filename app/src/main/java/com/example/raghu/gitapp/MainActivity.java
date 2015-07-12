@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG,"Git Name : " + gitModel.getName());
                 Log.d(TAG,"Git Location : " + gitModel.getLocation());
                 Log.d(TAG, "Git ID : " + gitModel.getID());
+                Log.d(TAG, "Company : " + gitModel.getCompany());
+
             }
 
             @Override
