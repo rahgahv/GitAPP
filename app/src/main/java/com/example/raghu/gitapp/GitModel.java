@@ -12,11 +12,18 @@ public class GitModel {
     @SerializedName("location")
     private String mLocation;
 
+    @SerializedName("id")
+    private int mID;
+
     public String getName() {
         return mName;
     }
 
     public String getLocation() {
         return mLocation;
+    }
+
+    public int getID() {
+        return mID;
     }
 }

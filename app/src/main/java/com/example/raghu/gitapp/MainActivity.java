@@ -1,6 +1,5 @@
 package com.example.raghu.gitapp;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -30,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void success(GitModel gitModel, Response response) {
                 Log.d(TAG,"Git Name : " + gitModel.getName());
                 Log.d(TAG,"Git Location : " + gitModel.getLocation());
+                Log.d(TAG, "Git ID : " + gitModel.getID());
             }
 
             @Override
